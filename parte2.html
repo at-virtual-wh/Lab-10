@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 2: Operaciones y Comparación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Operaciones Matemáticas y Comparación</h1>
+        <button onclick="operacionesMatematicas()">Realizar Operaciones</button>
+    </div>
+
+    <script>
+        let a = 10;
+        let b = 5;
+
+        function operacionesMatematicas() {
+            document.write("<strong>Resultados de Operaciones:</strong><br>");
+            document.write("Suma: " + (a + b) + "<br>");
+            document.write("Resta: " + (a - b) + "<br>");
+            document.write("Multiplicación: " + (a * b) + "<br>");
+            document.write("División: " + (a / b) + "<br><br>");
+
+            document.write("<strong>Comparaciones:</strong><br>");
+            document.write("a == b: " + (a == b) + "<br>");
+            document.write("a != b: " + (a != b) + "<br>");
+            document.write("a > b: " + (a > b) + "<br>");
+            document.write("a < b: " + (a < b) + "<br>");
+            document.write("a >= b: " + (a >= b) + "<br>");
+            document.write("a <= b: " + (a <= b) + "<br>");
+        }
+    </script>
+</body>
+</html>
