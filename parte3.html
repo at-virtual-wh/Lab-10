@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 3: Operadores Lógicos y Concatenación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Uso de Operadores Lógicos y Concatenación</h1>
+        <button onclick="verificarConduccion()">Verificar Conducción</button>
+    </div>
+
+    <script>
+        let esMayorDeEdad = true;
+        let tieneLicencia = false;
+
+        function verificarConduccion() {
+            const puedeConducir = esMayorDeEdad && tieneLicencia;
+            document.write("<strong>¿Puede conducir?:</strong> " + puedeConducir + "<br><br>");
+
+            const mensajeBienvenida = `¡Hola, bienvenido al sistema!`;
+            document.write("<strong>Mensaje de Bienvenida:</strong> " + mensajeBienvenida);
+        }
+    </script>
+</body>
+</html>
