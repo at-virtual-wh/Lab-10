@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Declaración de Variables y Tipos de Datos</h1>
-        <button onclick="mostrarValores()">Mostrar Valores en Consola</button>
+        <button onclick="mostrarValores()">Mostrar Valores</button>
     </div>
 
     <script>
@@ -18,18 +18,18 @@
         let esEstudiante = true;
 
         function mostrarValores() {
-            document.write("Nombre:", nombre);
-            document.write("Edad:", edad);
-            document.write("¿Es Estudiante?:", esEstudiante);
+            document.write("Nombre: ", nombre, "<br>");
+            document.write("Edad: ", edad, "<br>");
+            document.write("¿Es Estudiante?: ", esEstudiante , "<br><br>");
 
             // Cambiando los valores
             nombre = "Ana";
             edad = 30;
             esEstudiante = false;
 
-            documet.write("Nombre cambiado:", nombre);
-            document.write("Edad cambiada:", edad);
-            document.write("¿Es Estudiante cambiado?:", esEstudiante);
+            document.write("<b>Nombre cambiado:</b> ", nombre, "<br>");
+            document.write("<b>Edad cambiada:</b> ", edad, "<br>");
+            document.write("<b>¿Es Estudiante cambiado?:</b> ", esEstudiante);
         }
     </script>
 </body>
