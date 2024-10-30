@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 1: Variables y Tipos de Datos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Declaración de Variables y Tipos de Datos</h1>
+        <button onclick="mostrarValores()">Mostrar Valores en Consola</button>
+    </div>
+
+    <script>
+        let nombre = "Carlos";
+        let edad = 25;
+        let esEstudiante = true;
+
+        function mostrarValores() {
+            console.log("Nombre:", nombre);
+            console.log("Edad:", edad);
+            console.log("¿Es Estudiante?:", esEstudiante);
+
+            // Cambiando los valores
+            nombre = "Ana";
+            edad = 30;
+            esEstudiante = false;
+
+            console.log("Nombre cambiado:", nombre);
+            console.log("Edad cambiada:", edad);
+            console.log("¿Es Estudiante cambiado?:", esEstudiante);
+        }
+    </script>
+</body>
+</html>
